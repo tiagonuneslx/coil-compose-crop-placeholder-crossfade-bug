@@ -61,8 +61,8 @@ fun App() {
                     painter = rememberImagePainter(
                         data = url,
                         builder = {
-//                            placeholder(R.drawable.ic_food)
-//                            crossfade(true)
+                            placeholder(R.drawable.ic_food)
+                            crossfade(true)
                         }
                     ),
                     contentDescription = null,
